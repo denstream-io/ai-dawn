@@ -3,6 +3,8 @@
 
 # Maze Solver using DFS/BFS
 
+ ![alt text](./assets/maze.png)
+
 This project implements a maze-solving algorithm using **Depth-First Search (DFS)** by default, with the option to use **Breadth-First Search (BFS)**. The algorithm works on a grid-based maze where the user provides a text file with walls and open spaces, and the program finds the solution (if one exists).
 
 ## Classes and Structure
@@ -154,10 +156,10 @@ def output_image(self, filename, show_solution=True, show_explored=False):
 
 ### 5. **Main Program**
 ```python
-if len(sys.argv) != 2:
+if len(sys.argv) != 3:
     sys.exit("Usage: python maze.py maze.txt")
 
-m = Maze(sys.argv[1])
+m = Maze(sys.argv[1], sys.argv[2])
 m.solve()
 m.output_image("maze.png", show_explored=True)
 ```
