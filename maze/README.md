@@ -3,7 +3,7 @@
 
 # Maze Solver using DFS/BFS
 
- ![alt text](/assets/maze.png)
+ ![Generated Maze Image from input files](./assets/maze.png)
 
 This project implements a maze-solving algorithm using **Depth-First Search (DFS)** by default, with the option to use **Breadth-First Search (BFS)**. The algorithm works on a grid-based maze where the user provides a text file with walls and open spaces, and the program finds the solution (if one exists).
 
