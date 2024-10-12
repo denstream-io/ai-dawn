@@ -1,5 +1,8 @@
+```
 <label:Search color:#FFA07A>
+```
 ---
+
 
 # Maze Solver using DFS/BFS
 
