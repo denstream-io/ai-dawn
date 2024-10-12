@@ -1,5 +1,5 @@
 
-<label:Search color:#FFA07A>
+<span style="color: #FFA07A">[tag: Search]</span>
 ---
 
 
